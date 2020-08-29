@@ -7,17 +7,20 @@
 /*navbar*/
 #navbar{
     position: relative;
+    top: 0px;
     display: flex;
-align-items: center;
+    align-items: center;
 }
 #navbar::before{
     content: "";
     background-color: black;
     position: absolute;
-    height: 100%;
+    top: 0px;
+    left: 0px;
+    height: 600px;
     width: 100%;
     z-index: -1;
-    opacity: 0.09;
+    opacity: 0.01;
     
 }
 /* navbar logo */
@@ -57,36 +60,113 @@ align-items: center;
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
+    height: 360px;
 }
 #Home::before{
     content: "";
     background: url(../img/background1.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 100%;
+    height:475px;
     width: 100%;
+    top: 0px;
+    left: 0px;
     z-index: -1;
     opacity: 0.69;
-}
+ }
+  #Home h1{
+        color: #714747; 
+        text-align: center;
+    }
+    #Home  p{
+        color: #714747; 
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+
 /*utility class*/
 .h-primary{
     font-size: 2.8rem;
     padding: 12px;
     font-family: 'Baloo 2', cursive;
 }
-#Home h1{
-    color: #714747; 
+
+.h-sec{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.center{
     text-align: center;
 }
-#Home  p{
-    color: #714747; 
-    text-align: center;
-    font-size: 1.3rem;
-    font-family: 'Baloo Bhaina 2', cursive;
-}
+
+
+
 .btn{
     padding: 6px 20px;
     border: 2px solid white;
     background-color: #233067;
     color: white ;
     border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+/*services section styling*/
+
+#services{
+    display: flex;
+    margin: 10px 50px;
+}
+/*.service_container h1{
+    position: absolute;
+    top: 470px;
+    left: 33rem;
+}*/
+
+ #services .box{
+    border: 2px solid brown;
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+#services .box img{
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    font-family: 'Baloo Bhaina 2', cursive           
+
+}
+/*Clients section styling*/
+#clientsection{
+    height: 340px;
+    position: relative;
+
+}
+#clientsection{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #f2f2f2;
+    
+    
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 120px;
+}
+.clients-items{
+    padding: 30px;
 }
