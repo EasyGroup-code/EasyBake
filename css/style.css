@@ -74,11 +74,11 @@
     opacity: 0.69;
  }
   #Home h1{
-        color: #714747; 
+        color:black; 
         text-align: center;
     }
     #Home  p{
-        color: #714747; 
+        color: black; 
         text-align: center;
         font-size: 1.3rem;
         font-family: 'Baloo Bhaina 2', cursive;
@@ -146,13 +146,13 @@
 }
 /*Clients section styling*/
 #clientsection{
-    height: 340px;
+
     position: relative;
 
 }
 #clientsection{
     content: "";
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     background: #f2f2f2;
@@ -169,4 +169,10 @@
 }
 .clients-items{
     padding: 30px;
+}
+/*footer section*/
+footer{
+    background: black;
+    color: white;
+    padding: 4px 20px;
 }

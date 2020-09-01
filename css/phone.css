@@ -1,0 +1,52 @@
+/*navbar section*/
+#navbar{
+    flex-direction: column;
+
+}
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0px 20px;
+    
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+
+/*home section*/
+#Home{
+    height: 403px;
+    padding: 3px 70px;
+
+}
+#Home::before{
+    height: 537px;
+}
+
+/*services section */
+#services{
+    flex-direction: column ;
+}
+#services .box{
+
+}
+/*Client section*/
+#clientsection{
+
+    flex-wrap: wrap;
+
+}
+#clientsection img{
+    height: auto;
+    width: 60px;
+    padding: 6px;
+}
+/* footer section*/
+footer{
+
+}
+/*utility class*/
+.btn:hover{
+    background: white;
+    color: black;
+}
